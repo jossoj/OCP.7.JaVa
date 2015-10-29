@@ -31,7 +31,7 @@ class Person {
 				helped.offer(p.getName());
 			} while (!people.isEmpty());
 		}
-		
+		//
 		public static void main (String[] args) {
 			Queue<Person> q = (Queue<Person>) new LinkedList();
 			q.offer(new Person("Juan"));
